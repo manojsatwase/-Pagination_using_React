@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+.products{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.product_card{
+  width: 300px;
+  border: 1px solid gray;
+  padding: 5px;
+  text-align: left;
+}
+.product_card .product_img{
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.product_card span{
+  display: block;
+}
+
+.pagination{
+  display: flex;
+  margin: 1rem 0;
+}
+.pagination div{
+  padding: 10px 20px;
+  border: 1px solid blue;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.active{
+  background: rgb(5, 4, 5);
+  color: wheat;
+}
